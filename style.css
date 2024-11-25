@@ -1,0 +1,68 @@
+body {
+    font-family: 'bradley hand', cursive, sans-serif;
+    text-align: center;
+    background-color: #f4f4f9;
+    color: #f1ebeb;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.cards {
+    position: relative;
+    width: 100px;
+    height: 250px;
+    margin: 40px auto;
+}
+
+.card {
+    position: absolute;
+    width: 80px;
+    height: 120px;
+    transform-origin: bottom center;
+    cursor: pointer;
+    transition: transform 0.3s ease, z-index 0.3s;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #333;
+    border-radius: 8px;
+}
+
+.card:hover {
+    transform: scale(1.2);
+    z-index: 10;
+}
+
+.result {
+    margin-top: 20px;
+    display: none;
+}
+
+.result img {
+    width: 120px;
+    height: 180px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+body {
+    background-image: url('imagem/gato.jpg');
+    /* Caminho para a imagem */
+    background-size: cover;
+    /* Ajusta o tamanho da imagem ao contêiner */
+    /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    /* Evita repetição da imagem */
+    margin: 0;
+    /* Remove margens da página */
+    padding: 0;
+    /* Remove preenchimentos da página */
+
+}
