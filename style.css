@@ -1,12 +1,13 @@
 body {
     font-family: 'bradley hand', cursive, sans-serif;
     text-align: center;
+    font-size: 30px;
     background-color: #f4f4f9;
     color: #f1ebeb;
 }
 
 .container {
-    max-width: 800px;
+    max-width: 800 px;
     margin: auto;
     padding: 20px;
 }
