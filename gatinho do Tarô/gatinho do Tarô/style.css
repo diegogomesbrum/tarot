@@ -1,5 +1,6 @@
 body {
     font-family: 'bradley hand', cursive, sans-serif;
+    font-weight: bolder;
     background-color: #f8f8f4;
     background-image: url('imagem/gato.jpg');
     /* Caminho para a imagem */
@@ -22,7 +23,7 @@ body {
     min-height: 100vh;
     /* Garante que o conteúdo ocupe a altura total da tela */
     text-align: center;
-    color: #64da16;
+    color: #d2e23c;
 }
 
 .container {
