@@ -3,6 +3,11 @@ body {
     text-align: center;
     background-color: #FFFF00;
     color: #FFFF00;
+    background-image: url('imagem/gato.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -39,34 +44,30 @@ body {
     z-index: 10;
 }
 
+/* Área do resultado (parte inferior da tela) */
 .result {
     margin-top: 20px;
     display: none;
+    background-color: black; /* fundo preto */
+    padding: 20px;
+    border-radius: 10px;
 }
 
-.result img {
-    margin-top: 20px;
-    display: none;
-    color: #FFD700; /* cor dourada */
-    font-size: 28px; /* aumenta o tamanho da letra */
-    font-weight: bold; /* deixa em negrito (opcional) */
-    text-shadow: 1px 1px 4px #000; /* adiciona brilho/contraste (opcional) */
-}
-
-body {
-    background-image: url('imagem/gato.jpg');
-    /* Caminho para a imagem */
-    background-size: cover;
-    /* Ajusta o tamanho da imagem ao contêiner */
-    /* Centraliza a imagem */
-    background-repeat: no-repeat;
-    /* Evita repetição da imagem */
+/* Texto do significado da carta */
+.result p {
+    color: white; /* texto branco */
+    font-size: 28px; /* letra maior */
+    font-weight: bold;
+    text-shadow: 1px 1px 6px #000; /* leve brilho */
     margin: 0;
-    /* Remove margens da página */
-    padding: 0;
-    /* Remove preenchimentos da página */
-
-
 }
 
-
+/* Imagem da carta sorteada */
+.result img {
+    display: block;
+    margin: 20px auto 0 auto;
+    width: 200px;
+    height: auto;
+    border: 3px solid #fff;
+    border-radius: 10px;
+}
