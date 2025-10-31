@@ -45,11 +45,12 @@ body {
 }
 
 .result img {
-    width: 120px;
-    height: 180px;
-    border: 2px solid #333;
-    border-radius: 8px;
-    margin: 10px 0;
+    margin-top: 20px;
+    display: none;
+    color: #FFD700; /* cor dourada */
+    font-size: 28px; /* aumenta o tamanho da letra */
+    font-weight: bold; /* deixa em negrito (opcional) */
+    text-shadow: 1px 1px 4px #000; /* adiciona brilho/contraste (opcional) */
 }
 
 body {
@@ -67,4 +68,5 @@ body {
 
 
 }
+
 
