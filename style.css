@@ -1,7 +1,7 @@
 body {
     font-family: 'bradley hand', cursive, sans-serif;
     text-align: center;
-    background-color: #FFFF00;
+    background-color: #000000;
     color: #FFFF00;
     background-image: url('imagem/gato.jpg');
     background-size: cover;
@@ -71,3 +71,4 @@ body {
     border: 3px solid #fff;
     border-radius: 10px;
 }
+
