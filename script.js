@@ -16,7 +16,7 @@ const cards = [
     { image: "imagem/temperanca.jpg", meaning: "A Temperança: Simboliza equilíbrio, paciência e moderação." },
     { image: "imagem/diabo.jpg", meaning: "O Diabo: Indica tentações, excessos e apegos materiais." },
     { image: "imagem/estrela.jpg", meaning: "A Estrela: Representa esperança, inspiração e renovação." },
-    { image: "imagem/lua.jpg", meaning: "A Lua: Simboliza ilusões, mistérios e intuição." },
+    { image: "imagem/lua.jpg", meaning: "A Lua: Simboliza ilusões, mistérios e intuição e a Karina." },
     { image: "imagem/sol.jpg", meaning: "O Sol: Indica sucesso, alegria e clareza." },
     { image: "imagem/julgamento.jpg", meaning: "O Julgamento: Representa renascimento, reflexão e decisões." },
     { image: "imagem/mundo.jpg", meaning: "O Mundo: Indica conclusão, realização e harmonia." },
@@ -60,6 +60,7 @@ function revealCard(index) {
 
 // Gera as cartas ao carregar a página
 window.onload = generateCards;
+
 
 
 
