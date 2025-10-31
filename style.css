@@ -3,7 +3,7 @@ body {
     text-align: center;
     background-color: #000000;
     color: #FFFF00;
-    background-image: url('imagem/gato.jpg');
+    background-image: url('imagem/IMG_20251030_215118.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
@@ -71,4 +71,5 @@ body {
     border: 3px solid #fff;
     border-radius: 10px;
 }
+
 
