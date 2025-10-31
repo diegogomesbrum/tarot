@@ -1,7 +1,7 @@
 body {
     font-family: 'bradley hand', cursive, sans-serif;
     text-align: center;
-    background-color: #f4f4f9;
+    background-color: #FFFF00;
     color: #31cf11;
 }
 
@@ -64,5 +64,6 @@ body {
     /* Remove margens da página */
     padding: 0;
     /* Remove preenchimentos da página */
+
 
 }
